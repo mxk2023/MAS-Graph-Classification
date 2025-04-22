@@ -6,8 +6,8 @@
 ## 2.运行方法
 ### 1.配置python环境
 ```shell
-$ conda create -n damoe python=3.11
-$ conda activate damoe
+$ conda create -n masgc python=3.11
+$ conda activate masgc
 $ conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 $ conda install pyg -c pyg
 $ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
